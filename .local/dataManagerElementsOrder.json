@@ -1,0 +1,88 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SaaSBrowser&"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "mSubject&Sequence_36",
+        "mEmail&Sequence_36",
+        "mContact&Sequence_36",
+        "mDescription&Sequence_44",
+        "mPhone&Sequence_44",
+        "mAccountName&Sequence_44",
+        "SaaSBrowser&Sequence_50",
+        "Trigger&Sequence_1",
+        "boolFileExists&Sequence_39",
+        "boolTicketCreated&Sequence_39",
+        "strDescription&Sequence_45"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Hide_Messages",
+        "Hide_Results"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ReadRequest.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SaaSBrowser&Sequence_50",
+        "dtRequest&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "RequestFilePath",
+        "ContactName",
+        "Email",
+        "Subject",
+        "Description",
+        "AccountName",
+        "Phone"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RenameRequest.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SaaSBrowser&Sequence_50",
+        "RenamedFile&Sequence_2",
+        "OriginalFile&Sequence_2",
+        "Timestamp&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SaaSAutomation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SaaSBrowser&Sequence_50",
+        "SaaSBrowser&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "ContactName",
+        "Email",
+        "Subject",
+        "Successful",
+        "AccountName",
+        "Description",
+        "Phone"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
